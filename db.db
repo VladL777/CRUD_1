@@ -1,0 +1,14 @@
+CREATE DATABASE test_db;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    sec_name VARCHAR(255),
+    age INT,
+    sex VARCHAR(255),
+    mail VARCHAR(255)
+);
+
+INSERT INTO users (name, sec_name, age, sex, mail) values ("Anton", "Zaharov", 25, "male", "zaharov25@mail.ru");
+INSERT INTO users (name, sec_name, age, sex, mail) values ("Fedor", "Sharapov", 35, "male", "sharapov35@mail.ru");
+INSERT INTO users (name, sec_name, age, sex, mail) values ("Anna", "Karpova", 45, "female", "karpova45@mail.ru");
